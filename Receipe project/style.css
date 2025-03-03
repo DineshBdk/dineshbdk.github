@@ -1,0 +1,67 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:burlywood;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    background-color: white;
+    height: auto;
+    width: 500px;
+    margin: 30px;
+    
+    
+    border-radius: 20px;
+}
+.image{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 25px;
+
+}
+.content{
+   margin-left: 20px;
+}
+.prepare{
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.prepare li{
+    margin-bottom:8px ;
+}
+hr{
+    margin: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.ing{
+    margin-left: 20px;
+}
+.ins{
+    margin-left: 20px;
+}
+.ing.list li,.ins.list li{
+    margin-bottom: 10px;
+}
+.nut,p{
+    margin-left: 20px;
+}
+.tab{
+    width:90%;
+    margin:auto;
+    border-collapse: collapse;
+    margin-left: 20px;
+   
+}
+.tab td{
+    border-bottom: 1px solid lightgray;
+    margin: 10px;
+    padding: 5px; 
+}
+
