@@ -1,0 +1,108 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color:rgb(104, 76, 25);
+}
+
+.container {
+  background-color:burlywood;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height:450px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.image{
+ margin-left:30%;
+ display:flex;
+ width: 90px;
+}
+
+h1 {
+  text-align:center;
+  margin-top:0px;
+  }
+
+.input {
+  margin-bottom: 15px;
+}
+
+.password {
+   margin-bottom: 15px;
+   position: relative;
+}
+
+.input input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.password input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  transform: translateY(-50%);
+  top:50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.Remember a{
+  text-decoration: none;
+  color: blue;
+}
+.Remember a:hover{
+  text-decoration: underline;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+button {
+  width: 45%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color:green;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+p {
+  margin-top:20px;
+  font-size: 15px;
+}
+
+p a {
+  text-decoration: none;
+  color: blue;
+}
+p a:hover {
+  text-decoration:underline;
+}
+
